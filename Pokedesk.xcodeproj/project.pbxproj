@@ -16,6 +16,7 @@
 		4444F2271E31D37100B2F177 /* PokedeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F2261E31D37100B2F177 /* PokedeskTests.swift */; };
 		4444F2321E31D37100B2F177 /* PokedeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F2311E31D37100B2F177 /* PokedeskUITests.swift */; };
 		4444F2411E31FAB300B2F177 /* Pokedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444F2401E31FAB300B2F177 /* Pokedata.swift */; };
+		4444F2431E3208A000B2F177 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4444F2421E3208A000B2F177 /* pokemon.csv */; };
 		4F37681A2CECCDB4B7941ED9 /* Pods_Pokedesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83701CBBAF99C53D4F2F0BE0 /* Pods_Pokedesk.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		4444F2311E31D37100B2F177 /* PokedeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedeskUITests.swift; sourceTree = "<group>"; };
 		4444F2331E31D37100B2F177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4444F2401E31FAB300B2F177 /* Pokedata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokedata.swift; sourceTree = "<group>"; };
+		4444F2421E3208A000B2F177 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		70C0B1FA51AA9AB8FF894791 /* Pods-Pokedesk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedesk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedesk/Pods-Pokedesk.debug.xcconfig"; sourceTree = "<group>"; };
 		83701CBBAF99C53D4F2F0BE0 /* Pods_Pokedesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20A29490991C6FACB3B8200 /* Pods-Pokedesk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedesk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedesk/Pods-Pokedesk.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		4444F20D1E31D37000B2F177 /* Pokedesk */ = {
 			isa = PBXGroup;
 			children = (
+				4444F2421E3208A000B2F177 /* pokemon.csv */,
 				4444F23F1E31FA9E00B2F177 /* Model */,
 				4444F20E1E31D37100B2F177 /* AppDelegate.swift */,
 				4444F2101E31D37100B2F177 /* ViewController.swift */,
@@ -278,6 +281,7 @@
 			files = (
 				4444F21C1E31D37100B2F177 /* LaunchScreen.storyboard in Resources */,
 				4444F2191E31D37100B2F177 /* Assets.xcassets in Resources */,
+				4444F2431E3208A000B2F177 /* pokemon.csv in Resources */,
 				4444F2141E31D37100B2F177 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
